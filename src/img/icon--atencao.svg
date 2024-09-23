@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-bc2501cd-a79e-417e-9a14-40ab5f4f0df7" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86.09598 28.30053">
+  <g>
+    <text transform="translate(32.05448 17.24552)" fill="#bec0c3" font-family="Rawline-Black, Rawline" font-size="11" font-weight="800"><tspan x="0" y="0" letter-spacing="-.03995em">A</tspan><tspan x="6.89746" y="0" letter-spacing=".02504em">TEN</tspan><tspan x="29.4375" y="0" letter-spacing=".01376em">Ç</tspan><tspan x="37.18945" y="0" letter-spacing="-.00382em">Ã</tspan><tspan x="44.48438" y="0" letter-spacing=".02504em">O</tspan></text>
+    <text transform="translate(32.72538 17.9719)" fill="none" font-family="Rawline-Black, Rawline" font-size="11" font-weight="800" stroke="#474e56" stroke-miterlimit="10" stroke-width=".4"><tspan x="0" y="0" letter-spacing="-.03995em">A</tspan><tspan x="6.89746" y="0" letter-spacing=".02504em">TEN</tspan><tspan x="29.4375" y="0" letter-spacing=".01376em">Ç</tspan><tspan x="37.18945" y="0" letter-spacing="-.00382em">Ã</tspan><tspan x="44.48438" y="0" letter-spacing=".02504em">O</tspan></text>
+  </g>
+  <g>
+    <g>
+      <polygon points="0 22.74054 3.20076 28.30053 22.60113 20.67013 13.22991 3.66803 9.37812 0 0 22.74054" fill="#bc8e23" stroke-width="0"/>
+      <polygon points="3.20076 28.30053 22.60113 20.67013 13.22991 3.66803 3.20076 28.30053" fill="#fabe31" stroke-width="0"/>
+    </g>
+    <path d="m14.48227,18.95988l-2.9331-7.01253c-.22967-.54909-.16246-1.17752.17813-1.66563h0c.5281-.75684,1.55553-.96914,2.34035-.48359l.04892.03027c.54393.33652.85914.94453.82066,1.58298l-.45496,7.5485Z" fill="#fb4246" stroke-width="0"/>
+    <rect x="13.76664" y="20.01296" width="2.41284" height="2.41284" rx="1.20642" ry="1.20642" transform="translate(-3.53758 3.00371) rotate(-10.25217)" fill="#fb4246" stroke-width="0"/>
+  </g>
+</svg>

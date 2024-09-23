@@ -1,0 +1,277 @@
+.box-0-bkp {
+  /* background: url("../img/moodleface/Elementos/ProjetoSH_NovoFinal-81.png"),
+    url("../img/moodleface/Elementos/Imagens_separadas/FundoMoodleface.png"); */
+
+  background-size: 240px auto, 100% 500px;
+  background-position: 50px 65px, 0px 0px;
+  background-repeat: no-repeat, no-repeat;
+  width: 100%;
+  height: 600px;
+}
+
+.box-0 {
+  background: url("../img/moodleface/backPersona.png");
+  background-size: 100% 500px;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+}
+
+.box1 {
+  background-color: #79b2db;
+  /* box-shadow: 5px 5px 5px #ffffff33; */
+  padding: 10px !important;
+  border-radius: 20px;
+  display: inline-block;
+  opacity: 1;
+  color: #1d1d1bff;
+  font-weight: bold;
+  font-size: 20px;
+  /* line-height: 21px;
+	position: relative;
+	left: 289px !important;
+	top: 10px; */
+}
+
+.box100 {
+  display: block;
+}
+a:hover.box1 {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.text0 {
+  margin-top: 15px !important;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px !important;
+  color: #1d1d1bff;
+}
+
+.text01 {
+  margin-top: 15px !important;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px !important;
+  color: #1d1d1bff;
+}
+
+@media (max-width: 5000px) {
+  .titulotesteira {
+    margin-top: 28px !important;
+    font-size: 23px !important;
+  }
+  .imgtesteira {
+    margin-top: 10px !important;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .imgTrilhaMoodle1 {
+    height: 65px;
+  }
+
+  .trilha2 {
+    top: 393px !important;
+    left: 119px !important;
+  }
+  .moodleDireitaTopo {
+    margin-top: -160px !important;
+  }
+  .textoMoodle {
+    margin-top: -60px !important;
+    margin-bottom: 30px !important;
+    font-size: 0.6em !important;
+  }
+  .imgTrilhaMoodle2 {
+    margin-top: 5px;
+    height: 60px;
+  }
+  .moodleLogos {
+    margin-top: 20px !important;
+  }
+  .separador {
+    width: 18px;
+  }
+  .titulotesteira {
+    margin-top: 0px !important;
+    font-size: 20px !important;
+  }
+  .imgtesteira {
+    height: 60px !important;
+    margin-top: 10px !important;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .imgTrilhaMoodle1 {
+    height: 45px;
+  }
+  .separador {
+    width: 14px;
+    top: 20px !important;
+  }
+  .sobreocursoTrilha {
+    position: relative;
+    right: 35px;
+    top: 45px;
+  }
+  .trilha {
+    padding-right: 30px !important;
+  }
+  .inicieaqui {
+    padding-left: 35px !important;
+  }
+
+  .moodleDireitaTopo {
+    margin-top: -30px !important;
+  }
+  .textoMoodle {
+    margin-top: 0px !important;
+    margin-bottom: 20px !important;
+    font-size: 0.6em !important;
+  }
+  .moodleDireitaEmbaixo {
+    margin-top: 0px !important;
+  }
+  .imgTrilhaMoodle2 {
+    margin-top: 10px !important;
+
+    height: 42px;
+  }
+
+  .moodleLogos {
+    margin-top: 10px !important;
+    margin-left: -5px !important;
+  }
+  .titulotesteira {
+    font-size: 17px !important;
+  }
+}
+
+.trilha3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 8px;
+}
+
+@media (max-width: 767px) {
+  .imgTrilhaMoodle1 {
+    height: 50px;
+  }
+  .sobreocursoTrilha {
+    position: relative;
+    right: 50px;
+  }
+  .separador {
+    display: none;
+  }
+  .inicieaqui {
+    padding-left: 20px !important ;
+  }
+  .titulotesteira {
+    margin-bottom: -100px !important;
+  }
+  .trilha {
+    padding-right: 60px !important;
+  }
+  .interagindo {
+    position: absolute;
+    left: -15px !important;
+  }
+  .moodleDireitaTopo {
+    margin-top: -10px !important;
+    width: 65%;
+  }
+  .textoMoodle {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+  .moodleDireitaEmbaixo {
+    margin-top: 0px !important;
+    width: 65%;
+  }
+  .trilha3 {
+    margin-top: 20px !important;
+  }
+  .moodleLogos {
+    width: 70%;
+    margin-top: 15px !important;
+    margin-left: 80px !important;
+  }
+  .barrainferior {
+    margin-top: 30px !important;
+  }
+}
+
+@media (max-width: 650px) {
+  .imgTrilhaMoodle2 {
+    height: 70px;
+  }
+  .sobreocursoTrilha {
+    margin-top: 15px;
+    left: 10px;
+  }
+  .box-0 {
+    background: url("../img/moodleface/backPersona.png");
+    background-size: 100% 720px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 820px;
+  }
+  .iconecurso {
+    height: 50px !important;
+  }
+  .testeira {
+    font-size: 16px !important;
+  }
+  .computermoodle {
+    display: none !important;
+  }
+  .mobilemoodle {
+    display: contents !important;
+  }
+}
+
+@media (max-width: 419px) {
+  .iconecurso {
+    height: 40px !important;
+  }
+  .testeira {
+    font-size: 13px !important;
+    /* height: 50px !important; */
+  }
+}
+
+@media (max-width: 315px) {
+  .titulotesteira b,
+  span {
+    font-size: 14px !important;
+  }
+  .box-0 {
+    background: url("../img/moodleface/backPersona.png");
+    background-size: 100% 750px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 850px;
+  }
+  .moodleDireitaTopo,
+  .moodleDireitaEmbaixo,
+  .moodleLogos {
+    width: 100% !important;
+  }
+  .moodleLogos {
+    margin-left: 0px !important;
+  }
+}

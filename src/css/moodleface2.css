@@ -1,0 +1,103 @@
+main {
+  margin-top: 100px;
+  margin-bottom: 32px;
+}
+
+.mf-panel {
+  padding: 6rem 2rem 6rem 6rem;
+  max-width: 100%;
+  background-image: url("../img/moodleface/backPersona.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: "Rawline", "Open Sans", sans-serif;
+}
+.mf-panel > div.row:first-child > div:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.mf-panel .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.mf-panel .title > span:nth-child(1) {
+  font-weight: 500;
+}
+.mf-panel .title > span:nth-child(2) {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.mf-panel div.nav-button {
+  margin-right: -10px;
+}
+.mf-panel div.nav-button img {
+  height: 77px;
+}
+.mf-panel img.line {
+  height: 20px;
+  width: 3px;
+}
+@media (max-width: 1200px) {
+  .mf-panel img.line {
+    display: none;
+  }
+}
+.mf-panel img.line.rotated {
+  height: 23.5px;
+  transform: rotate(90deg);
+}
+.mf-panel span {
+  text-align: center;
+  display: block;
+  color: #474e56;
+}
+.mf-panel span.course-start-text {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.mf-panel .bottom-line {
+  margin-top: 1rem;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: nowrap;
+}
+
+.mf-side-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.mf-side-panel img {
+  max-width: min(100%, 255px);
+}
+.mf-side-panel span {
+  display: block;
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #474e56;
+}
+.mf-side-panel .trilha {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.mf-side-panel .trilha img {
+  max-height: 56px;
+}
+
+footer {
+  height: 64px;
+  width: 100%;
+  background-image: url("../img/moodleface/bottonLine.png");
+  background-size: 100% 100%;
+}
+
+/*# sourceMappingURL=moodleface2.css.map */

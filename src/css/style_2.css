@@ -1,0 +1,578 @@
+@import url('https://fonts.cdnfonts.com/css/rawline?styles=28868');
+
+article * {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  line-height: 1 !important;
+}
+
+article p {
+  font-family: "OpenSans";
+  line-height: 31px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  hyphens: auto;
+  text-align: justify;
+  color: #212121;
+  font-size: 19px;
+}
+
+article h1,
+h2,
+h3,
+li {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+li {
+  margin: 0;
+  padding: 0px 0px 0px 25px;
+  list-style: none;
+  background-image: url("../img/imagens/NewBullet.svg");
+  background-repeat: no-repeat;
+  background-position: left 3px;
+  background-size: 34px;
+  padding-right: 20px;
+  font-family: "OpenSans";
+}
+
+li span {
+  font-family: "OpenSans";
+  line-height: 31px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  hyphens: auto;
+  text-align: justify;
+  color: #212121;
+  position: relative;
+  top: 1px;
+  left: 23px;
+}
+
+ul.sumario li {
+  margin: 0;
+  padding: 8px 8px 8px 25px !important;
+  list-style: none;
+  background-image: url("../img/Assets/g4.png");
+  background-repeat: no-repeat;
+  background-position: left 3px;
+  background-size: 15px;
+  font-family: "OpenSans";
+}
+
+h1 {
+  font-size: 25px;
+  line-height: 44px;
+  font-weight: bold;
+  color: #474e56;
+  font-family: "Rawline", sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 22px;
+  color: #474e56;
+  font-weight: bold;
+  line-height: 38px !important;
+  font-family: "Rawline", sans-serif;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 22px;
+  color: #474e56;
+  font-weight: bold;
+  line-height: 32px !important;
+  font-family: "Rawline", sans-serif;
+  font-weight: 800;
+}
+
+h5 {
+  font-family: "Rawline", sans-serif;
+  font-weight: 700;
+}
+
+/* @font-face {
+  font-family: OpenSans;
+  src: url(fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-semiBoldItalic;
+  src: url(fonts/OpenSans-SemiBoldItalic.ttfa);
+}
+
+@font-face {
+  font-family: rawline-700;
+  src: url(fonts/rawline-700.ttf);
+}
+
+@font-face {
+  font-family: rawline-800;
+  src: url(fonts/rawline-800.ttf);
+} */
+
+/* FONTE ANTIGA */
+/* @font-face {
+		font-family: Roboto-Light;
+		src: url(fonts/Roboto-Regular.ttf);
+		}
+		
+
+
+@font-face {
+	font-family: Roboto-Medium;
+	src: url(fonts/RobotoCondensed-Medium.ttf);
+	}
+	 */
+
+/* @font-face {
+  font-family: Roboto-Bold;
+  src: url(fonts/Roboto-Bold-webfont.woff);
+}
+
+@font-face {
+  font-family: Roboto-Black;
+  src: url(fonts/Roboto-Bold-webfont.woff);
+}
+
+@font-face {
+  font-family: RobotoCondensed-Bold;
+  src: url(fonts/RobotoCondensed-Bold.ttf);
+}
+
+@font-face {
+  font-family: RobotoCondensed-LightItalic;
+  src: url(fonts/RobotoCondensed-LightItalic.ttf);
+}
+@font-face {
+  font-family: RobotoCondensed-Regular;
+  src: url(fonts/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+  font-family: Raleway-Regular;
+  src: url(fonts/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: Raleway-Bold;
+  src: url(fonts/Raleway-Bold.ttf);
+} */
+
+:root {
+  --bs-body-font-family: "OpenSans", sans-serif;
+  font-size: 19px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#target-container {
+  margin: 1000px auto;
+  width: 300px;
+  height: 300px;
+  background-color: #474e56;
+  line-height: 300px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#target-container2 {
+  margin: 1000px auto;
+  width: 300px;
+  height: 300px;
+  background-color: #336699;
+  line-height: 300px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#target-container3 {
+  margin: 1000px auto;
+  width: 300px;
+  height: 300px;
+  background-color: #336699;
+  line-height: 300px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#message {
+  position: fixed;
+  background-color: #f1c40f;
+  padding: 10px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+
+#menu {
+  background-color: #dddddd !important;
+  color: #333333;
+  border: 1px solid #999999;
+  padding: 20px 20px 0px 20px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: 400;
+}
+
+.stylemenu {
+  animation-duration: 0.3s;
+  display: none;
+  z-index: 2000;
+  width: 250px;
+  background-color: #8cb0e5;
+  position: absolute;
+  right: -38%;
+  top: 108%;
+  color: #ffffff;
+}
+.style_i {
+  font-size: 80px;
+  position: relative;
+  top: 5px;
+  cursor: pointer;
+  left: 570%;
+  color: transparent;
+}
+a {
+  color: inherit;
+}
+
+.figuraButton1,
+.figuraButton2,
+.figuraButton3,
+.figuraButton4,
+.figuraButton5,
+.figuraButton6 {
+  width: 35%;
+  height: 90px;
+
+  position: absolute;
+  top: 0;
+}
+
+.figuraButton1 {
+  margin-top: 80px !important;
+}
+
+.figuraButton2 {
+  margin-top: 180px !important;
+  height: 90px !important;
+}
+
+.figuraButton3 {
+  margin-top: 275px !important;
+  height: 60px !important;
+}
+
+.figuraButton4 {
+  margin-top: 370px !important;
+  height: 120px !important;
+}
+
+.figuraButton5 {
+  margin-top: 495px !important;
+  height: 95px !important;
+}
+
+.figuraButton6 {
+  margin-top: 595px !important;
+  height: 120px !important;
+}
+
+.figura {
+  display: none;
+}
+
+.figuraAtual {
+  display: block;
+}
+
+.class-cards svg {
+  width: 0 !important;
+
+  margin-left: 0 !important;
+  transform: translateX(0px) !important;
+  visibility: hidden;
+  cursor: pointer;
+}
+
+.class-cards .col-md-12 div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.class-cards svg.card-show {
+  visibility: visible;
+  width: 100% !important;
+  animation: rotateCardIn 1s ease-in-out;
+}
+
+.slideButton {
+  width: 50px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  margin-top: 14% !important;
+}
+
+.nextSlideButton {
+  right: 0;
+}
+
+.slide {
+  display: none;
+}
+
+.slideAtual {
+  display: block;
+}
+
+.icones-trilha0 {
+  color: rgb(70, 80, 71);
+  width: 100px;
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: -20px;
+}
+.icones-trilha {
+  color: rgb(70, 80, 71);
+  width: 100px;
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.icones-trilha div {
+  font-size: 16px;
+  line-height: 18px;
+  margin-top: 5px !important;
+  font-weight: normal;
+}
+
+a.icones-trilha:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.svg-container {
+  line-height: 31px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+p a:hover {
+  color: #207fc3;
+}
+
+/* .creditos{
+	background-color: #207fc369;
+	padding: 10px;
+	border-radius: 10px;
+	 margin-top: 20px !important; 
+	margin-bottom: 20px !important; 
+	line-height: 31px !important;
+	padding: 20px !important;
+	padding-left: 30px !important;
+} */
+
+.creditos {
+  margin: 20px 0px !important;
+  padding: 30px !important;
+  font-family: "OpenSans", sans-serif;
+  font-weight: 200;
+  border-radius: 10px;
+  background-color: #dcefb382;
+  line-height: 1.5 !important;
+}
+.creditos b {
+  font-family: "OpenSans-bold", sans-serif;
+  font-weight: bolder !important;
+}
+
+.creditos > .titulo {
+  margin-bottom: 16px !important;
+
+  font-family: "Rawline", sans-serif;
+  font-weight: 700;
+  font-weight: 500;
+  font-size: 28px;
+  color: #474e56;
+}
+
+.creditos > .subtitulo {
+  margin: 16px 0 !important;
+  font-family: "Rawline", sans-serif;
+  font-weight: 700;
+  font-weight: 500;
+  font-size: 20px;
+  color: #474e56;
+}
+
+@media (max-width: 5500px) {
+  .capavideo {
+    width: 20%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .capavideo {
+    width: 30%;
+  }
+
+  .titulotesteira {
+    margin-top: 20px !important;
+    margin-bottom: -20px;
+    font-size: 1.1em !important;
+  }
+  .unidade {
+    left: 542px !important;
+  }
+  .imgtesteira {
+    height: 55px !important;
+    margin-top: 18px !important;
+    margin-bottom: 5px !important;
+    margin-right: -20px;
+  }
+  #menuIcon {
+    margin-top: 0px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .titulotesteira {
+    margin-top: 20px !important;
+    margin-bottom: -20px;
+    font-size: 1.1em !important;
+  }
+  .unidade {
+    display: none;
+  }
+  .imgtesteira {
+    height: 55px !important;
+    margin-top: 18px !important;
+    margin-bottom: 5px !important;
+    margin-right: -20px;
+  }
+  #menuIcon {
+    margin-top: 0px !important;
+  }
+
+  .sumario1 {
+    display: none !important;
+  }
+  .sumariocomputer {
+    display: none !important;
+  }
+  .sumariomobile {
+    display: contents !important;
+  }
+  .fundohorizontal {
+    display: none !important;
+  }
+  .fundovertical {
+    display: contents !important;
+  }
+  .botaocapa2 {
+    margin-top: -80px !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .mobile {
+    display: block !important;
+  }
+
+  .computer {
+    display: none !important;
+  }
+
+  .botaocapa2 {
+    bottom: 165px !important;
+  }
+}
+
+@media (max-width: 821px) {
+  .sumario1 {
+    display: none !important;
+  }
+  .sumariocomputer {
+    display: none !important;
+  }
+  .sumariomobile {
+    display: contents !important;
+  }
+  .fundohorizontal {
+    display: none !important;
+  }
+  .fundovertical {
+    display: contents !important;
+    /* margin-top: -1880px !important; */
+  }
+  .iconedestaque {
+    width: 15%;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    overflow-x: hidden;
+  }
+  .titulotesteira {
+    font-size: 0.8em;
+    margin-top: 30px !important;
+  }
+  .imgtesteira {
+    height: 70px !important;
+    margin-top: 15px !important;
+    margin-right: -20px;
+  }
+  #menutesteira {
+    width: 50%;
+  }
+}
+
+@media (max-width: 548px) {
+  .titulotesteira {
+    font-size: 0.7em;
+    margin-top: 30px !important;
+  }
+  .imgtesteira {
+    height: 60px !important;
+    margin-top: 18px !important;
+    margin-right: -20px;
+  }
+  #menutesteira {
+    width: 40%;
+  }
+
+  .botaocapa2 {
+    bottom: 160px !important;
+  }
+}

@@ -1,0 +1,5 @@
+node_modules/
+src/css/*.css.map
+src/css/font-awesome
+src/css/fonts
+src/img/moodleface/Elementos
