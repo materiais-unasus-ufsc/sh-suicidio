@@ -1,20 +1,24 @@
 # Sobre o Curso
 
-## Intercorrências na Saúde Sexual e Reprodutiva do Homem
+## Prevenção ao Suicídio
 
-Seja bem-vindo ao curso **"Intercorrências na saúde sexual e reprodutiva do homem"**.
+ Seja bem-vindo ao curso de "**Prevenção ao suicídio**". 
 
-Neste curso, abordaremos como reconhecer as principais intercorrências na saúde sexual e reprodutiva do homem. Refletiremos sobre os principais aspectos da abordagem dos profissionais de saúde na Atenção Primária à Saúde, com o objetivo de estimular a aproximação da população masculina aos serviços de saúde e contribuir para a ampliação de novas práticas de cuidado.
+Neste curso serão abordados:
+
+- reflexões sobre o manejo na prevenção do comportamento suicida dos usuários da Atenção Primária à Saúde
+- propostas de abordagens para identificar a ideação suicida e de cuidado com os indivíduos que tentaram cometer o suicídio
+- indicações para desenvolver ações voltadas para a redução destas mortes precoces na sua comunidade.
 
 ## Conteúdo do Curso
 
 Para auxiliar em seu aprendizado, o conteúdo está organizado nas seguintes unidades:
 
 ### Unidade 1
-Resumo unidade 1
+A relevância e a importância de trabalhar o comportamento suicida como questão de saúde pública, e como você pode atuar na prevenção dos agravos à saúde por meio de um cuidado singular e longitudinal às pessoas que vivenciam esta situação.
 
 ### Unidade 2
-Resumo unidade 2
+Instrumentos para que os profissionais da Atenção Primária à Saúde possam realizar ações de prevenção do suicídio. 
 
 ### Unidade 3
-Resumo unidade 3
+Estratégias de manejo da pessoa em situação de risco para o suicídio e ações possíveis para diminuir os impactos sofridos e para evitar novas mortes ou tentativas pelas pessoas em situação de risco. 
