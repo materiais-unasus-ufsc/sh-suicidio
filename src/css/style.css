@@ -3491,12 +3491,12 @@ article h1 {
 }
 
 .styled-list strong {
-  color: hsl(154, 30%, 63%);
+  color: hsl(40, 92%, 65%);
   font-weight: 700;
 }
 
 .styled-link {
-  color: hsl(154, 30%, 63%);
+  color: hsl(40, 92%, 65%);
   font-weight: 700;
   text-decoration: none;
   cursor: pointer;
@@ -3699,7 +3699,7 @@ article h1 {
   margin: 0;
 }
 .callout a {
-  color: hsl(154, 30%, 63%);
+  color: hsl(40, 92%, 65%);
 }
 .callout a:hover {
   text-decoration: underline;
@@ -3714,13 +3714,13 @@ article h1 {
   font-weight: normal;
   padding: 1rem;
   border-radius: 4px;
-  background-color: hsl(154, 30%, 83%);
+  background-color: hsl(40, 92%, 85%);
   box-shadow: 0px 0px 10px rgba(136, 136, 136, 0.3333333333);
 }
 
 .popover-button {
   font-weight: bold;
-  color: hsl(154, 30%, 48%);
+  color: hsl(40, 92%, 40%);
   cursor: pointer;
 }
 
@@ -3733,12 +3733,12 @@ article h1 {
   gap: 1rem;
   padding: 0.5rem 3rem;
   border-radius: 0.5rem;
-  border-left: 3px solid hsl(154, 30%, 83%);
+  border-left: 3px solid hsl(40, 92%, 85%);
   font-style: italic;
 }
 .quote > i {
   font-size: 2rem;
-  color: hsl(154, 30%, 73%);
+  color: hsl(40, 92%, 75%);
 }
 .quote > i:first-child {
   align-self: flex-start;
@@ -3810,7 +3810,7 @@ article h1 {
 .credit-container {
   margin: 1rem 0;
   padding: 2rem;
-  background-color: hsl(154, 30%, 98%);
+  background-color: hsl(40, 92%, 95%);
   border-radius: 12px;
 }
 .credit-container .credit-title {
@@ -3837,7 +3837,7 @@ article h1 {
 .highlight {
   padding: 1rem;
   padding-top: 0;
-  border: 1px dashed hsl(154, 30%, 63%);
+  border: 1px dashed hsl(40, 92%, 65%);
   border-radius: 16px;
 }
 .highlight h2 {
@@ -3859,7 +3859,7 @@ article h1 {
   position: absolute;
   height: 40px;
   width: 70%;
-  background-color: hsl(154, 30%, 93%);
+  background-color: hsl(40, 92%, 90%);
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
